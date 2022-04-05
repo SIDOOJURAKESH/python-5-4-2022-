@@ -1,0 +1,240 @@
+Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+====================== RESTART: C:\Users\dell\Desktop\1.py =====================
+10
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 51, in <module>
+    m2()
+  File "C:\Users\dell\Desktop\1.py", line 48, in m2
+    print(a)
+NameError: name 'a' is not defined
+
+========= RESTART: C:\Users\dell\Desktop\1.py ========
+10
+20
+
+========= RESTART: C:\Users\dell\Desktop\1.py ========
+10
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 52, in <module>
+    m2(20)
+TypeError: m2() takes 0 positional arguments but 1 was given
+
+========= RESTART: C:\Users\dell\Desktop\1.py ========
+10
+20
+
+========= RESTART: C:\Users\dell\Desktop\1.py ========
+30
+30
+
+========= RESTART: C:\Users\dell\Desktop\1.py ========
+10
+20
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+10
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 53, in <module>
+    m2(20)
+TypeError: m2() takes 0 positional arguments but 1 was given
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+10
+20
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+10
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 53, in <module>
+    m2()
+TypeError: m2() missing 1 required positional argument: 'a'
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+10
+10
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+10
+20
+
+==== RESTART: C:\Users\dell\Desktop\1.py ====
+30
+30
+2+5
+7
+8-3
+5
+5*5
+25
+25/5
+5.0
+25%-6
+-5
+'a'*4
+'aaaa'
+'2'*4
+'2222'
+5>3
+True
+5<3
+False
+1==int(1.00000)
+True
+1.5==int(1.0000)
+False
+3=3
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+3>3
+False
+3!=3.0
+False
+25.0<=25.0
+True
+3=>3
+SyntaxError: cannot assign to literal
+3>=3
+True
+5>3 and 5!=5
+False
+'10'+'10'
+'1010'
+'20'+'35'
+'2035'
+a=5
+b=6
+print(a+b)
+11
+text=input()
+text=input()
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    text=input()
+KeyboardInterrupt
+text1=input()
+text2=input()
+print(text1+text2)
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    print(text1+text2)
+NameError: name 'text2' is not defined. Did you mean: 'text1'?
+a=input()
+b=input()
+print(a+b)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    print(a+b)
+TypeError: can only concatenate str (not "int") to str
+a=input()
+b=input()
+print(a)
+b=input()
+a=input("enter: ")
+enter: 
+a=input("enter:'\n')
+        
+SyntaxError: unterminated string literal (detected at line 1)
+
+= RESTART: C:\Users\dell\Desktop\1.py
+enter: '
+'20
+enter: '
+'30
+2030
+
+============================= RESTART: C:\Users\dell\Desktop\1.py =============================
+90.0
+
+============================= RESTART: C:\Users\dell\Desktop\1.py =============================
+enter: '
+'20
+enter: '
+'30
+a+b
+
+============================= RESTART: C:\Users\dell\Desktop\1.py =============================
+enter: '
+'10
+enter: '
+'20
+1020
+1020
+        
+1020
+
+
+
+day=input()day
+        
+SyntaxError: invalid syntax
+day=input()dayd
+        
+SyntaxError: invalid syntax
+day=input()
+        
+sunday
+print(day)
+        
+sunday
+
+= RESTART: C:\Users\dell\Desktop\1.py
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 63, in <module>
+    ifx>0;
+NameError: name 'ifx' is not defined
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 63, in <module>
+    if x>0:
+NameError: name 'x' is not defined
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\1.py", line 63, in <module>
+    if x>0:
+NameError: name 'x' is not defined
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+x is +ve
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+4
+        
+4
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+6
+        
+6
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+x is +ve
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+=============================================== RESTART: C:\Users\dell\Desktop\1.py ==============================================
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
